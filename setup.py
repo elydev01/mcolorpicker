@@ -9,7 +9,7 @@ setup(
   author = 'KOUA ELYSEE',
   author_email = 'elydev01@gmail.com',
   url = 'https://github.com/elydev01/mcolorpicker',
-  download_url = 'https://github.com/elydev01/mcolorpicker/archive/refs/tags/1.0.2.tar.gz',
+  download_url = 'https://github.com/elydev01/mcolorpicker/archive/refs/tags/v0.1.2.tar.gz',
   keywords = ['kivy', 'color', 'picker', 'colorpicker', 'kivymd', 'choose', 'mobile'],
   package_data={'mcolorpicker': ['colors']},
   include_package_data=True,
