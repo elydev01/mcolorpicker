@@ -1,3 +1,3 @@
-from .colorpicker import MaterialColorPicker
+from .mcolorpicker import MaterialColorPicker
 
 __all__ = ('MaterialColorPicker', )
