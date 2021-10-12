@@ -1,0 +1,28 @@
+#: import C kivy.utils.get_color_from_hex
+
+<HomeMainScreen>:
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1,1,1,1
+        MDToolbar:
+            title: "Home"
+            pos_hint: {"top": 1}
+            elevation: 10
+            right_action_items: [["dots-vertical", lambda x:x]]
+        BoxLayout:
+            orientation: 'vertical'
+            ScrollView:
+                always_overscroll: False
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    spacing: dp(20)
+                    MDBoxLayout:
+                        md_bg_color: root.bg_color
+                    MDBoxLayout:
+                        md_bg_color: root.bg_color_selected
+                    Button:
+                        text: 'Pick Color'
+                        size_hint: None, None
+                        size: dp(130), dp(45)
+                        pos_hint: {'center_x': .5}
+                        on_release: root.open_color_picker()
