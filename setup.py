@@ -3,14 +3,16 @@ from distutils.core import setup
 setup(
   name = 'mcolorpicker',
   packages = ['mcolorpicker'],
-  version = '0.1.1',
+  version = '0.1.2',
   license='MIT',
   description = 'A simple, minimalist and beautiful color picker for kivy based applications. This color picker is easy to use and integrate into your application to allow your application users to choose the color in a simple way.',
   author = 'KOUA ELYSEE',
   author_email = 'elydev01@gmail.com',
   url = 'https://github.com/elydev01/mcolorpicker',
-  download_url = 'https://github.com/elydev01/mcolorpicker/archive/refs/tags/1.0.tar.gz',
+  download_url = 'https://github.com/elydev01/mcolorpicker/archive/refs/tags/1.0.2.tar.gz',
   keywords = ['kivy', 'color', 'picker', 'colorpicker', 'kivymd', 'choose', 'mobile'],
+  package_data={'mcolorpicker': ['colors']},
+  include_package_data=True,
   install_requires=[
           'kivy',
           'kivymd',
