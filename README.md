@@ -21,7 +21,4 @@ Design inspiré de [Dribbble](https://dribbble.com/shots/1858968-Material-Design
 ---
 
 ![](demo/images/screen1.png)
-
----
-
 ![](demo/images/screen2.png)
